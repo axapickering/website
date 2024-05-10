@@ -1,3 +1,8 @@
+body {
+  background-color: #173f35;
+  color: #ffa300;
+}
+
 .icon-links {
   position: absolute;
   display: flex;
