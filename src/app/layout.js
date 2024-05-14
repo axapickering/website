@@ -17,17 +17,19 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={raleway.className}>
 
+
         <Navbar/>
         <IconLinks/>
+
+
+            <div className='content-container'>
+              {children}
+            </div>
+
         <div className='bottom-stripe'/>
         <div className='bottom-stripe-accent'/>
 
-            <div className='content-container'>
-
-              {children}
-
-            </div>
-
+        
         <BootstrapClient/>
         </body>
     </html>

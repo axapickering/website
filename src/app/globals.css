@@ -1,16 +1,8 @@
-html {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-
 body {
   background-color: #173f35;
   color: #ffa300;
-  height: 100% !important;
-  width: 100% !important;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 a {
@@ -30,7 +22,7 @@ a {
 }
 
 .github-icon,.linkedin-icon {
-  max-width: 5vh;
+  max-width: 8vh;
   margin: 2vh;
 }
 
