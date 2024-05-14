@@ -1,5 +1,19 @@
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
 body {
   background-color: #173f35;
+  color: #ffa300;
+  height: 100% !important;
+  width: 100% !important;
+}
+
+a {
   color: #ffa300;
 }
 
@@ -12,7 +26,7 @@ body {
 }
 
 .nav {
-  width: 25vw;
+  width: 21vw;
 }
 
 .github-icon,.linkedin-icon {
@@ -22,9 +36,44 @@ body {
 
 .content-container {
   position: absolute;
-  top: 15vh;
+  top: 12vh;
   left: 10vw;
 
   width: 80vw;
   height: 80vh;
+}
+
+.bottom-stripe {
+  background-color: 	#9e2a2f;
+  z-index: -1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 10vh;
+  width: 100vw;
+}
+
+.bottom-stripe-accent {
+  background-color: 	#ffa300;
+  z-index: -1;
+  position: absolute;
+  bottom: 10vh;
+  left: 0;
+  height: 1vh;
+  width: 100vw;
+}
+
+.headshot {
+  position: absolute;
+  top: 5vh;
+  right: 5vw;
+  border-radius: 50%;
+  height: 25vh;
+
+}
+
+.about-me-text,.like-list {
+  margin: 0;
+  height: fit-content;
+  max-width: 45vw;
 }
